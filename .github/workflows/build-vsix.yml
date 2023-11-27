@@ -33,7 +33,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Echo result 1
         if: steps.changesets.outputs.hasChangesets == 'false'
