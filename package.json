@@ -1,4 +1,6 @@
 {
+  "name": "Something Clever",
+  "version": "1.0.0",
   "dependencies": {
     "@changesets/cli": "^2.26.2"
   }
