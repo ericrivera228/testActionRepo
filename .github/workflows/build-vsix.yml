@@ -32,6 +32,8 @@ jobs:
       - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
+        with:
+          createGithubReleases: false
         env:
           GITHUB_TOKEN: hp_r4SsYT1uL1pZmCNwwfsPaarPeyFA7u1BeYTg
 
