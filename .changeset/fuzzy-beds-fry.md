@@ -1,5 +1,0 @@
----
-"Something Clever": patch
----
-
-Test
